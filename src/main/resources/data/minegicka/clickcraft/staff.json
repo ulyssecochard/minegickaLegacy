@@ -1,0 +1,18 @@
+{
+  "category": "staff",
+  "result": {
+    "item": "minegicka:staff"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:the_stick",
+      "count": 3
+    },
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
+  ]
+}

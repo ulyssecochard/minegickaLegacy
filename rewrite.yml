@@ -1,0 +1,19 @@
+﻿type: specs.openrewrite.org/v1beta/recipe
+name: minegicka.port.v1
+displayName: "Minegicka port — recettes mécaniques"
+description: "Migrations mécaniques sûres (packages FML, ResourceLocation, util Java)"
+recipeList:
+  # cpw.mods.fml -> net.minecraftforge.fml (API FML modernes)
+  - org.openrewrite.java.ChangePackage:
+      oldPackageName: "cpw.mods.fml"
+      newPackageName: "net.minecraftforge.fml"
+      recursive: true
+
+  # net.minecraft.util.ResourceLocation -> net.minecraft.resources.ResourceLocation
+  - org.openrewrite.java.ChangeType:
+      oldFullyQualifiedTypeName: "net.minecraft.util.ResourceLocation"
+      newFullyQualifiedTypeName: "net.minecraft.resources.ResourceLocation"
+
+  # Encourager java.util.Objects (Java 17)
+  - org.openrewrite.java.migrate.JavaUtilObjects:
+      minimumJavaVersion: 17

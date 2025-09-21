@@ -1,0 +1,22 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:life_essence"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:bone",
+      "count": 8
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "count": 8
+    },
+    {
+      "item": "minecraft:cake"
+    }
+  ]
+}

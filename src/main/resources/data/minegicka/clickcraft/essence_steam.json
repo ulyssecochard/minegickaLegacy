@@ -1,0 +1,19 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:steam_essence"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:flint_and_steel",
+      "count": 2
+    },
+    {
+      "item": "minecraft:snowball",
+      "count": 16
+    }
+  ]
+}

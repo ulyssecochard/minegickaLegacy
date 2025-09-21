@@ -1,0 +1,19 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:the_stick_super"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy_super",
+      "count": 2
+    },
+    {
+      "item": "minegicka:the_stick_good"
+    },
+    {
+      "item": "minecraft:red_dye",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:thingy_good"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy",
+      "count": 16
+    }
+  ]
+}

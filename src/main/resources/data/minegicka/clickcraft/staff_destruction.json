@@ -1,0 +1,20 @@
+{
+  "category": "staff",
+  "result": {
+    "item": "minegicka:staff_destruction"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:staff"
+    },
+    {
+      "item": "minegicka:arcane_essence"
+    },
+    {
+      "item": "minegicka:fire_essence"
+    },
+    {
+      "item": "minegicka:earth_essence"
+    }
+  ]
+}

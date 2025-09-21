@@ -1,0 +1,23 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:earth_essence"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:dirt",
+      "count": 64
+    },
+    {
+      "item": "minecraft:cobblestone",
+      "count": 16
+    },
+    {
+      "item": "minecraft:obsidian",
+      "count": 4
+    }
+  ]
+}

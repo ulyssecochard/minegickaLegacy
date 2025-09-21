@@ -1,0 +1,14 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:magic_super_apple"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "minegicka:thingy_super"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:fire_essence"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "count": 4
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "count": 4
+    }
+  ]
+}

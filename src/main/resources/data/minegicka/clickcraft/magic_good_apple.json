@@ -1,0 +1,14 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:magic_good_apple"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minegicka:thingy_good"
+    }
+  ]
+}

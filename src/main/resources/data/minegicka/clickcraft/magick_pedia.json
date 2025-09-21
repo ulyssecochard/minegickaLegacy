@@ -1,0 +1,14 @@
+{
+  "category": "advanced",
+  "result": {
+    "item": "minegicka:magick_pedia"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minegicka:thingy"
+    }
+  ]
+}

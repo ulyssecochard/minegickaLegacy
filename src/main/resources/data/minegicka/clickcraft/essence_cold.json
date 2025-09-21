@@ -1,0 +1,15 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:cold_essence"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:snowball",
+      "count": 64
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:the_stick_good"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy_good",
+      "count": 2
+    },
+    {
+      "item": "minegicka:the_stick"
+    }
+  ]
+}

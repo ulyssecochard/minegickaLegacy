@@ -1,0 +1,35 @@
+rules:
+  # --- IEEP -> Capabilities ---
+  - id: minegicka-detect-ieep
+    languages: [java]
+    severity: WARNING
+    message: "IExtendedEntityProperties detected: migrate to Forge Capabilities"
+    patterns:
+      - pattern-either:
+          # class implements IEEP
+          - pattern: |
+              class $C implements net.minecraft.entity.player.IExtendedEntityProperties { ... }
+          # direct import
+          - pattern: |
+              import net.minecraft.entity.player.IExtendedEntityProperties;
+          # type reference anywhere
+          - pattern: net.minecraft.entity.player.IExtendedEntityProperties
+
+  # --- SimpleNetworkWrapper -> modern Forge network ---
+  - id: minegicka-detect-simple-network
+    languages: [java]
+    severity: WARNING
+    message: "SimpleNetworkWrapper detected: migrate to modern Forge network"
+    patterns:
+      - pattern-either:
+          # direct import
+          - pattern: |
+              import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
+          # declaration with init
+          - pattern: |
+              net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper $X = $INIT;
+          # declaration without init (field/var)
+          - pattern: |
+              net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper $X;
+          # type reference anywhere
+          - pattern: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper

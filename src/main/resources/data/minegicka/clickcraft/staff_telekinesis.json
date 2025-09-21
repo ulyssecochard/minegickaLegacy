@@ -1,0 +1,22 @@
+{
+  "category": "staff",
+  "result": {
+    "item": "minegicka:staff_telekinesis"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:staff"
+    },
+    {
+      "item": "minegicka:steam_essence"
+    },
+    {
+      "item": "minecraft:arrow",
+      "count": 16
+    },
+    {
+      "item": "minecraft:feather",
+      "count": 16
+    }
+  ]
+}

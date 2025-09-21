@@ -1,0 +1,21 @@
+{
+  "category": "staff",
+  "result": {
+    "item": "minegicka:staff_blessing"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:staff"
+    },
+    {
+      "item": "minegicka:life_essence",
+      "count": 2
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ]
+}

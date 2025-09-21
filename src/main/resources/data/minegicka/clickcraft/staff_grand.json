@@ -1,0 +1,19 @@
+{
+  "category": "staff",
+  "result": {
+    "item": "minegicka:staff_grand"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:the_stick",
+      "count": 2
+    },
+    {
+      "item": "minegicka:the_stick_good",
+      "count": 2
+    },
+    {
+      "item": "minegicka:thingy_good"
+    }
+  ]
+}

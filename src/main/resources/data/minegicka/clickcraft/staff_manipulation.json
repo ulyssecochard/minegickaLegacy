@@ -1,0 +1,20 @@
+{
+  "category": "staff",
+  "result": {
+    "item": "minegicka:staff_manipulation"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:staff"
+    },
+    {
+      "item": "minegicka:arcane_essence"
+    },
+    {
+      "item": "minegicka:life_essence"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    }
+  ]
+}

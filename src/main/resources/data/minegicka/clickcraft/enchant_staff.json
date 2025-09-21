@@ -1,0 +1,23 @@
+{
+  "category": "advanced",
+  "result": {
+    "item": "minegicka:enchant_staff"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian",
+      "count": 3
+    },
+    {
+      "item": "minegicka:thingy",
+      "count": 3
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:glass",
+      "count": 2
+    }
+  ]
+}

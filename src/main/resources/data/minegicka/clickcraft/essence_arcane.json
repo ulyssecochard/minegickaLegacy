@@ -1,0 +1,23 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:arcane_essence"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:thingy"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "count": 4
+    },
+    {
+      "item": "minecraft:fermented_spider_eye",
+      "count": 16
+    },
+    {
+      "item": "minecraft:nether_wart",
+      "count": 4
+    }
+  ]
+}

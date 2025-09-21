@@ -1,0 +1,18 @@
+{
+  "category": "hat",
+  "result": {
+    "item": "minegicka:hat_of_risk"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:hat"
+    },
+    {
+      "item": "minegicka:life_essence"
+    },
+    {
+      "item": "minecraft:red_dye",
+      "count": 3
+    }
+  ]
+}

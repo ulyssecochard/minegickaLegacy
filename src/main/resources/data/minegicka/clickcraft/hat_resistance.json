@@ -1,0 +1,14 @@
+{
+  "category": "hat",
+  "result": {
+    "item": "minegicka:hat_of_resistance"
+  },
+  "ingredients": [
+    {
+      "item": "minegicka:hat"
+    },
+    {
+      "item": "minegicka:mat_resistance"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+// 1.20.1	2025-09-19T22:55:24.4928544	Block States: minegicka
+ece654c4ee44c5cb1f5fb48159d5bb391852ca6a assets/minegicka/blockstates/craft_station.json
+6aa8c13c4bf73422e434f3656b446d288d1fd18e assets/minegicka/blockstates/enchant_staff.json
+8744c33ee6328cea99ae61a7929c392ac5c93e87 assets/minegicka/blockstates/shield_block.json
+c5e280acd4004f1bdc99ea2405ac412f34afa44d assets/minegicka/blockstates/wall_block.json
+0494500560030fc0127810f2697d45abde55bd3d assets/minegicka/models/block/craft_station.json
+de30032a5642e451041b0963218778dc334409a1 assets/minegicka/models/block/enchant_staff.json
+a7a1c26a7c6b0979efcf548430b04d9fca654080 assets/minegicka/models/block/shield_block.json
+7b7f3d22f597659ed75869e9962d77c60af881b8 assets/minegicka/models/block/wall_block.json
+fbebbb2923e57c29024f5988003d3ce90f49b0cf assets/minegicka/models/item/craft_station.json
+67f8fd364c4f07409b9a7311e61256790ac989c2 assets/minegicka/models/item/enchant_staff.json
+23ecf3ae216aa9f045ac70aea0023a84f22414ad assets/minegicka/models/item/shield_block.json
+623164b4a12b774c8901cc82aa951e9dd80e8582 assets/minegicka/models/item/wall_block.json

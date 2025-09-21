@@ -1,0 +1,14 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:thingy"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ]
+}

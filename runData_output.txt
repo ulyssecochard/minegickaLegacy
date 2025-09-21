@@ -1,0 +1,96 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :downloadMcpConfig
+> Task :extractSrg UP-TO-DATE
+> Task :createSrgToMcp UP-TO-DATE
+> Task :downloadMCMeta UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :extractNatives UP-TO-DATE
+> Task :makeSrcDirs
+> Task :prepareRuns
+> Task :prepareRunData
+> Task :prepareRunDataCompile UP-TO-DATE
+
+> Task :runData
+2025-09-19 22:46:31,365 main WARN Advanced terminal features are not available in this environment
+[22:46:31] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\ulyss\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.8, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, minegicka, --all, --output, C:\Users\ulyss\mods\minegicka_port_1_20_1\src\generated\resources, --existing, C:\Users\ulyss\mods\minegicka_port_1_20_1\src\main\resources]
+[22:46:31] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22:46:31] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[22:46:31] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/ulyss/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[22:46:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ulyss\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.8\721e2d976494c8275bd81b3404e7dd109b7558c\javafmllanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[22:46:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ulyss\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.8\73022064045853db9acea4a61e8c76aad4df52d6\lowcodelanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[22:46:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ulyss\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.8\f6f8fcedd2034d8aeb4c696bae232555fbc99bd3\mclanguage-1.20.1-47.4.8.jar is missing mods.toml file
+[22:46:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file C:\Users\ulyss\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.8\21a451a2c815d519fd534d90eddbd8fd0c44d36e\fmlcore-1.20.1-47.4.8.jar is missing mods.toml file
+[22:46:32] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22:46:34] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\ulyss\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, minegicka, --all, --output, C:\Users\ulyss\mods\minegicka_port_1_20_1\src\generated\resources, --existing, C:\Users\ulyss\mods\minegicka_port_1_20_1\src\main\resources]
+[22:46:34] [main/INFO] [ne.mi.da.lo.DatagenModLoader/]: Initializing Data Gatherer for mods [minegicka]
+[22:46:39] [modloading-worker-0/INFO] [co.al.mi.MinegickaMod/]: Bootstrapping Minegicka Legacy skeleton
+[22:46:39] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.8, for MC 1.20.1 with MCP 20230612.114412
+[22:46:39] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v47.4.8 Initialized
+[22:46:40] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/ulyss/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.8_mapped_official_1.20.1/forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22:46:40] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/ulyss/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.8_mapped_official_1.20.1/forge-1.20.1-47.4.8_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22:46:40] [main/INFO] [minecraft/DataGenerator]: Starting provider: Item Models: minegicka
+Exception in thread "main" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.8/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.dataService(CommonLaunchHandler.java:107)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.8/net.minecraftforge.fml.loading.targets.ForgeDataUserdevLaunchHandler.devService(ForgeDataUserdevLaunchHandler.java:22)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.8/net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	... 7 more
+Caused by: java.lang.IllegalStateException: Model at minegicka:block/shield_block does not exist
+	at MC-BOOTSTRAP/com.google.common@31.1-jre/com.google.common.base.Preconditions.checkState(Preconditions.java:590)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.client.model.generators.ModelFile.assertExistence(ModelFile.java:33)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.client.model.generators.ModelProvider.getExistingFile(ModelProvider.java:386)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.client.model.generators.ModelProvider.withExistingParent(ModelProvider.java:91)
+	at TRANSFORMER/minegicka@0.1.0/com.alco.minegickalegacy.datagen.MinegickaItemModelProvider.registerModels(MinegickaItemModelProvider.java:27)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.client.model.generators.ModelProvider.run(ModelProvider.java:397)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.HashCache.generateUpdate(HashCache.java:92)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.DataGenerator.lambda$run$0(DataGenerator.java:44)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.DataGenerator.run(DataGenerator.java:37)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.data.event.GatherDataEvent$DataGeneratorConfig.lambda$runAll$2(GatherDataEvent.java:111)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.api.LamdbaExceptionUtils.lambda$rethrowConsumer$0(LamdbaExceptionUtils.java:34)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.data.event.GatherDataEvent$DataGeneratorConfig.runAll(GatherDataEvent.java:107)
+	at TRANSFORMER/forge@47.4.8/net.minecraftforge.data.loading.DatagenModLoader.begin(DatagenModLoader.java:54)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.data.Main.main(Main.java:90)
+	... 16 more
+
+> Task :runData FAILED
+System.Management.Automation.RemoteException
+FAILURE: Build failed with an exception.
+System.Management.Automation.RemoteException
+* What went wrong:
+Execution failed for task ':runData'.
+> Process 'command 'C:\Program Files\Eclipse Adoptium\jdk-17.0.16.8-hotspot\bin\java.exe'' finished with non-zero exit value 1
+System.Management.Automation.RemoteException
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+System.Management.Automation.RemoteException
+BUILD FAILED in 22s
+10 actionable tasks: 3 executed, 7 up-to-date

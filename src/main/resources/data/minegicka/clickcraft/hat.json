@@ -1,0 +1,15 @@
+{
+  "category": "hat",
+  "result": {
+    "item": "minegicka:hat"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:leather",
+      "count": 8
+    },
+    {
+      "item": "minegicka:thingy"
+    }
+  ]
+}

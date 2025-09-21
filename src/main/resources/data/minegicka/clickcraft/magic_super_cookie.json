@@ -1,0 +1,16 @@
+{
+  "category": "general",
+  "result": {
+    "item": "minegicka:magic_super_cookie",
+    "count": 4
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:cookie",
+      "count": 4
+    },
+    {
+      "item": "minegicka:thingy_super"
+    }
+  ]
+}
